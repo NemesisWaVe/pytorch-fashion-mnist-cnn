@@ -1,10 +1,10 @@
-Tutorial: Your First PyTorch CNN for Fashion-MNIST Classification
+# Tutorial: Your First PyTorch CNN for Fashion-MNIST Classification
 
 This repository contains the code for a beginner-friendly tutorial on building, training, and evaluating a Convolutional Neural Network (CNN) using PyTorch. The model is trained to classify images from the Fashion-MNIST dataset into 10 different clothing categories.
 
 This project covers the complete end-to-end workflow of a basic deep learning project, including data loading, model definition, training, evaluation, visualization, and saving/loading the trained model.
 
-Final Results
+# Final Results
 
 The trained CNN achieves an accuracy of approximately 88% on the 10,000-image Fashion-MNIST test set after 5 epochs of training.
 
@@ -14,7 +14,7 @@ test.ipynb - Achieved 88.57% using the loaded model.
 
 (Note: Your exact accuracy might vary slightly due to random initialization)
 
-Requirements
+# Requirements
 
 Python 3.9+
 
@@ -22,14 +22,14 @@ An NVIDIA GPU with CUDA support is highly recommended for reasonable training ti
 
 Required Python packages: torch, torchvision, matplotlib, numpy, jupyterlab (or VS Code with Python/Jupyter extensions).
 
-Setup Instructions
+# Setup Instructions
 
 Follow these steps to set up the project environment on your local machine:
 
 Clone the Repository:
 
-git clone [https://github.com/](https://github.com/)<Your-GitHub-Username>/<Your-Repository-Name>.git
-cd <Your-Repository-Name>
+git clone [https://github.com/NemesisWaVe/pytorch-fashion-mnist-cnn.git]
+cd pytorch-fashion-mnist-cnn
 
 
 Create a Python Virtual Environment:
