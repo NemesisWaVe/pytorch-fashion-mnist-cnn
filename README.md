@@ -50,10 +50,10 @@ You should see (venv) at the beginning of your terminal prompt.
 Install Dependencies:
 Install PyTorch, TorchVision, and Matplotlib using pip. Use the correct command for your system and CUDA version. The command below installs the version compatible with CUDA 12.1, which is common for modern NVIDIA drivers.
 
-# --- Install PyTorch with CUDA 12.1 support ---
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+# Install PyTorch with CUDA 12.1 support 
+pip install torch torchvision torchaudio index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
 
-# --- Install other dependencies ---
+# Install other dependencies
 pip install matplotlib jupyterlab numpy
 
 
